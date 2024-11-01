@@ -1,4 +1,4 @@
-import { type Config } from "drizzle-kit";
+import type { Config } from "drizzle-kit";
 
 import { env } from "@/env";
 
@@ -31,5 +31,5 @@ export default {
     databaseId: env.CLOUDFLARE_D1_DATABASE_ID ?? "sk_invalid",
     token: env.CLOUDFLARE_TOKEN ?? "sk_invalid",
   },
-  tablesFilter: [`t3-cloudflare_*`],
+  tablesFilter: ["tutorvibe_*"],
 } satisfies Config;

@@ -1,4 +1,4 @@
-import { type Config } from "drizzle-kit";
+import type { Config } from "drizzle-kit";
 
 import { env } from "@/env";
 
@@ -16,5 +16,5 @@ export default {
   dbCredentials: {
     url: `file:${env.LOCAL_DB_PATH}`,
   },
-  tablesFilter: [`t3-cloudflare_*`],
+  tablesFilter: ["tutorvibe_*"],
 } satisfies Config;
