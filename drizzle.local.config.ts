@@ -17,5 +17,5 @@ export default {
   dbCredentials: {
     url: `file:${env.LOCAL_DB_PATH}`,
   },
-  tablesFilter: ["tutorvibe_*"],
+  tablesFilter: ["<REPLACE_ME>_*"],
 } satisfies Config;

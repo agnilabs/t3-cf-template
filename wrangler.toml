@@ -1,4 +1,4 @@
-name = "tutorvibe"
+name = "<REPLACE_ME>"
 compatibility_date = "2024-05-29"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
@@ -27,8 +27,8 @@ mode = "smart"
 # Docs: https://developers.cloudflare.com/pages/functions/bindings/#d1-databases
 [[d1_databases]]
 binding = "DB"
-database_name = "tutorvibe"
-database_id = "498c7875-68d5-47e4-9ea7-1ba4c7a05655"
+database_name = "<REPLACE_ME>"
+database_id = "<REPLACE_ME>"
 
 # Bind a Durable Object. Durable objects are a scale-to-zero compute primitive based on the actor model.
 # Durable Objects can live for as long as needed. Use these when you need a long-running "server", such as in realtime apps.

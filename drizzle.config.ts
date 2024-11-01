@@ -31,5 +31,5 @@ export default {
     databaseId: env.CLOUDFLARE_D1_DATABASE_ID ?? "sk_invalid",
     token: env.CLOUDFLARE_TOKEN ?? "sk_invalid",
   },
-  tablesFilter: ["tutorvibe_*"],
+  tablesFilter: ["<REPLACE_ME>_*"],
 } satisfies Config;

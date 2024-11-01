@@ -4,8 +4,8 @@
   "id": "ea74f41a-2935-4cf3-9d46-276244fd8da3",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
-    "tutorvibe_post": {
-      "name": "tutorvibe_post",
+    "<REPLACE_ME>_post": {
+      "name": "<REPLACE_ME>_post",
       "columns": {
         "id": {
           "name": "id",

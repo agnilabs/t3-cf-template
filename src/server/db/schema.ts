@@ -9,10 +9,10 @@ import { index, int, sqliteTableCreator, text } from "drizzle-orm/sqlite-core";
  * database instance for multiple projects.
  *
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
- * NOTE: tutorvibe_ is the prefix for the table names, you can change it
+ * NOTE: <REPLACE_ME>_ is the prefix for the table names, you can change it
  */
 export const createTable = sqliteTableCreator(
-  (name) => `tutorvibe_${name}`,
+  (name) => `<REPLACE_ME>_${name}`,
 );
 
 export const posts = createTable(
